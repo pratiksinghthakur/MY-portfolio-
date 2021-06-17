@@ -20,6 +20,10 @@ function RecommendationCard(props) {
             <p className="card-text text-secondary">
               {designation} at {company}
             </p>
+           </div>
+         </div>
+       </Button>
+
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
               </Modal.Header>
@@ -30,11 +34,7 @@ function RecommendationCard(props) {
                 {designation} at {company}
               </Modal.Body>
             </Modal>
-          </div>
-        </div>
-
-
-      </Button>
+          
 
     </div>
   );
